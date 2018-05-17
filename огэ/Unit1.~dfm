@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 274
+  Top = 136
+  Width = 610
+  Height = 430
+  Caption = 'Form1'
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    object asasda1: TMenuItem
+      Caption = #1079#1072#1076#1072#1085#1080#1103
+      object N11: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 1'
+        OnClick = N11Click
+      end
+      object N21: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 2'
+      end
+      object N31: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 3'
+      end
+      object N41: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 4'
+      end
+      object N51: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 5'
+      end
+      object N61: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 6'
+      end
+      object N71: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 7'
+      end
+      object N81: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 8'
+      end
+      object N91: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 9'
+      end
+      object N101: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 10'
+      end
+      object N111: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 11'
+      end
+      object N121: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 12'
+      end
+      object N131: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 13'
+      end
+      object N141: TMenuItem
+        Caption = #1079#1072#1076#1072#1085#1080#1077' 14'
+      end
+    end
+    object asdasdas1: TMenuItem
+      Caption = #1085#1072#1089#1090#1088#1086#1081#1082#1080
+      object N1: TMenuItem
+        Caption = #1087#1086#1084#1077#1085#1103#1090#1100' '#1092#1086#1085
+        OnClick = N1Click
+      end
+    end
+    object asdasda1: TMenuItem
+      Caption = #1086#1073' '#1087#1088#1086#1077#1082#1090#1077
+      OnClick = asdasda1Click
+    end
+  end
+end
